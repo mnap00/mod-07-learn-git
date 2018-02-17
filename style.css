@@ -11,6 +11,11 @@ body {
   padding: 12px;
   width: 100%; }
 
+.clearfix:after, .row:after {
+  clear: both;
+  content: " ";
+  display: block; }
+
 .row {
   margin: 0 -12px; }
 
@@ -90,5 +95,12 @@ body {
   float: left;
   min-height: 1px;
   padding: 12px; }
+
+[class*=col] {
+  background-color: #bdc3c7;
+  border-radius: 10px; }
+
+.row {
+  margin-bottom: 20px; }
 
 /*# sourceMappingURL=style.css.map */
