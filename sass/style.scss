@@ -1,12 +1,23 @@
+$grey: #bdc3c7;
+$light: #1abc9c;
+
 * {
     box-sizing: border-box;
 }
 
 body {
+    background-color: $light;
     margin: 0;
     padding: 0;
 }
 
 @import "grid";
 
+[class*=col] {
+    background-color: $grey;
+    border-radius: 10px;
+}
 
+.row {
+    margin-bottom: 20px;
+}
